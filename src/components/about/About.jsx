@@ -16,10 +16,10 @@ const About = () => {
         </div>
         <div className='about__content'>
         <p>
-          Self- motivated and passionate 3rd year computer science undergraduate at 
-          Vellore Institute of Technology, Bhopal. Fascinated with strong uphold in 
-          technology and committed to utilize my skills to help others, while working 
-          towards the mission of a company. A strong leader who works well under 
+          Hello! My name is Avish. A passionate and aspiring software developer, 
+          fascinated with strong uphold in technology and committed to utilize 
+          my skills to help others, while working towards the mission to make
+          a better world for everyone. A strong leader who works well under 
           pressure, and exudes positivity.
           </p>
 

@@ -10,10 +10,29 @@ header {
     position: relative;
 }
 
+.header__container > h5 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.header__container > h1 {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.header__container > p {
+    width: 25rem;
+    height: 10rem;
+    font-size: 15px;
+    position: absolute;
+    left: calc(50% - 13rem);
+    overflow: hidden;
+    
+}
 /*=============================CTA=====================*/
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 10rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -39,20 +58,6 @@ header {
 
 }
 
-
-/*==========================IMAGE==========================*/
-
-.me {
-    
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    overflow: hidden;
-    padding: 0rem 1.5rem 1.5rem 1.5rem;
-}
-
 /*=========================SCROLL DOWN====================*/
 
 .scroll__down {
@@ -76,7 +81,12 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 60%;
+    }
+
+    .header__container > p {
+        width: 20rem;
+        left: calc(50% - 10rem);
     }
 
     .header__socials,

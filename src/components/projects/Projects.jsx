@@ -5,7 +5,8 @@ import './projects.css'
 const Projects = () => {
   return (
     <section id='projects'>
-      <h2>My Projects</h2>
+      <h5>What I've Worked on</h5>
+      <h2>Projects</h2>
       <div className='container project__container'>
         <div className='project__image-classifer'>
           <a href='https://github.com/avishshah11/Image-classifier'><FiGithub/></a>
