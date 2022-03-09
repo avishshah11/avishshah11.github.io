@@ -22,3 +22,35 @@
     color: var(--color-primary);
     margin-bottom: 1rem;
 }
+
+/*=====================MEDIA QUERIES (MEDIUM DEVICES)=========================*/
+
+
+@media screen and (max-width: 1024px) {
+    .project__container {
+        grid-template-columns: 1fr;
+    }
+
+    .project__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .project_content {
+        padding: 1rem;
+    }
+}
+
+/* ================MEDIA QUERIES (SMALL DEVICES)======================*/
+
+@media screen and (max-width: 600px) {
+    .project__container {
+        gap: 1rem;
+    }
+
+    .project__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
