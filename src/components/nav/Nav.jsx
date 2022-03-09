@@ -3,7 +3,7 @@ import './nav.css';
 import {AiFillHome, AiOutlineUser, AiOutlineFundProjectionScreen} from 'react-icons/ai'
 import {MdOutlineWork} from 'react-icons/md'
 import {BiMessageSquareDetail} from 'react-icons/bi'
-import {IoMdSchool} from 'react-icons/io'
+//import {IoMdSchool} from 'react-icons/io'
 import { useState } from 'react';
 
 const Nav = () => {
