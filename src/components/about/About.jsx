@@ -18,9 +18,8 @@ const About = () => {
         <p>
           Hello! My name is Avish. A passionate and aspiring software developer, 
           fascinated with strong uphold in technology and committed to utilize 
-          my skills to help others, while working towards the mission to make
-          a better world for everyone. A strong leader who works well under 
-          pressure, and exudes positivity.
+          my skills to help others. A competent software professional with required skills & 
+          attitude to make difference to improve quality of life of the people.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

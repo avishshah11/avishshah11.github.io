@@ -9,8 +9,8 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Avish Shah</h1>
-        <p>I'm a 3rd year undergraduate student studying bachelor of technology at vellore institue of technology, bhopal.
-          As a developer I like to create new things which make a valuable impact in the society.</p>
+        <p>I'm a 3rd year undergraduate pursuing Bachelor of Technology at Vellore Institue of Technology, Bhopal.
+          As a developer I like to Learn, involve and develop things which heads the way for betterment of the people.</p>
         <CTA/>
         <HeaderSocials/>
 
