@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import avish from '../../assets/avish.jpg'
+import avish_profile from '../../assets/avish_profile.jfif'
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={avish} alt='About Me'/>
+            <img src={avish_profile} alt='About Me'/>
           </div>
         </div>
         <div className='about__content'>
