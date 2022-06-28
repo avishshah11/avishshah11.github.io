@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.4c087f91.css",
-    "main.js": "/static/js/main.3425f691.js",
+    "main.js": "/static/js/main.f9b27ef3.js",
     "static/media/Vitol.pdf": "/static/media/Vitol.14e5ea0a54b9748a5908.pdf",
     "static/media/Resume.pdf": "/static/media/Resume.86fce88834d9fb485410.pdf",
     "static/media/avish_profile.jfif": "/static/media/avish_profile.e26b7be5ace358a8a7fe.jfif",
     "index.html": "/index.html",
     "main.4c087f91.css.map": "/static/css/main.4c087f91.css.map",
-    "main.3425f691.js.map": "/static/js/main.3425f691.js.map"
+    "main.f9b27ef3.js.map": "/static/js/main.f9b27ef3.js.map"
   },
   "entrypoints": [
     "static/css/main.4c087f91.css",
-    "static/js/main.3425f691.js"
+    "static/js/main.f9b27ef3.js"
   ]
 }
