@@ -28,7 +28,7 @@ const Projects = () => {
         <a href='https://github.com/avishshah11/FaceMask-Detection'><FiGithub/></a>
           <h2>Facemask Detection</h2>
           <p>
-          Face Mask detection built with PyTorch library using CNN having an accuracy of 97%.
+          Face Mask detection built with PyTorch library using CNN and having an accuracy of 97%.
           </p>
         </div>
       </div>
