@@ -12,7 +12,7 @@ const Projects = () => {
           <a href='https://github.com/avishshah11/Image-classifier'><FiGithub/></a>
           <h2>Image Classifier</h2>
           <p>
-            A project using Deep Learning library PyTorch which classifies 
+            An project using Deep Learning library PyTorch which classifies 
             images based on their respective labels with approximate accuracy of 98%. 
           </p>
         </div>
@@ -20,7 +20,7 @@ const Projects = () => {
         <a href='https://github.com/avishshah11/County-Clothing'><FiGithub/></a>
           <h2>County Clothing</h2>
           <p>
-            A e-commerce clothing website using ReactJS library having 
+            An e-commerce clothing website using ReactJS library having 
             firebase authentication and integrated with stripe payments.   
           </p>
         </div>
