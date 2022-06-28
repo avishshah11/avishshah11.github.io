@@ -20,7 +20,7 @@ const Projects = () => {
         <a href='https://github.com/avishshah11/County-Clothing'><FiGithub/></a>
           <h2>County Clothing</h2>
           <p>
-            A E-commerce clothing website with using ReactJS library having 
+            A e-commerce clothing website with using ReactJS library having 
             firebase authentication and integrated with stripe payments.   
           </p>
         </div>

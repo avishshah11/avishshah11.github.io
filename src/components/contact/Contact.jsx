@@ -9,7 +9,7 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className='container contact__container'>
       <div className='contact__paragraph'>
-          <p>My inbox is alway open if you have any question or just wanna say hi. 
+          <p>My inbox is always open if you have any question or just wanna say hi. 
             I'll try my best to get back to you.</p>
         </div>
         <div className='contact__options'>
