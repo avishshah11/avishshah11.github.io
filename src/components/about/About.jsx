@@ -18,7 +18,7 @@ const About = () => {
         <p>
           Hello! My name is Avish. A passionate and aspiring software developer, 
           fascinated with strong uphold in technology and committed to utilize 
-          my skills to help others. A competent software professional with required skills & 
+          my skills to help others. A competent software professional with required skills and 
           attitude to make difference to improve quality of life of the people.
           </p>
 
