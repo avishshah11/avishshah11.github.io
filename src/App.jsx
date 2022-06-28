@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import Projects from './components/projects/Projects'
+import Certification  from './components/certification/Certification'
 import './index.css';
 
 const app = () => {
@@ -16,6 +17,7 @@ const app = () => {
         <Nav/>
         <About/>
         <Education/>
+        <Certification/>
         <Projects/>
         <Experience/>
         <Contact/>
