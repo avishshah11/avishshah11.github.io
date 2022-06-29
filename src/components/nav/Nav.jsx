@@ -5,6 +5,7 @@ import {MdOutlineWork} from 'react-icons/md'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {IoMdSchool} from 'react-icons/io'
 import { useState } from 'react';
+import {FaCertificate} from 'react-icons/fa'
 
 const Nav = () => {
   const [activeNav, setactiveNav] = useState('#');
@@ -13,6 +14,7 @@ const Nav = () => {
       <a href='#' onClick={() => setactiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiFillHome/></a>
       <a href='#about' onClick={() => setactiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#education" onClick={() => setactiveNav('#education')} className={activeNav === '#education' ? 'active' : ''}><IoMdSchool/></a>
+      <a href="#certification" onClick={() => setactiveNav('#certification')} className = {activeNav === '#certification' ? 'active' : ''}><FaCertificate/></a>
       <a href='#projects' onClick={() => setactiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><AiOutlineFundProjectionScreen/></a>
       <a href='#experience' onClick={() => setactiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><MdOutlineWork/></a>
       <a href='#contact' onClick={() => setactiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
