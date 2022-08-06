@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className='about__content'>
         <p>
-          Hello! My name is Avish. A passionate and aspiring software developer, 
+          Hello! My name is Avish. A creative and aspiring software developer, 
           fascinated with strong uphold in technology and committed to utilize 
           my skills to help others. A competent software professional with required skills and 
           attitude to make difference to improve quality of life of the people.
