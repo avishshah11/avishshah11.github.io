@@ -23,7 +23,7 @@ const Education = () => {
           <h2>Vellore Institue of Technology, Bhopal</h2>
           <h4 className='board'>Bachelor of Technology in Computer Science and Enginnering</h4>
           <h5>July 2019 - May 2023</h5>
-          <h4 className='marks'>CGPA: 8.02</h4>
+          <h4 className='marks'>CGPA: 8.17</h4>
         </div>
       </div>
     </section>
