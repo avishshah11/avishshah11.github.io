@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68e493f7.css",
+    "main.js": "/static/js/main.0201347e.js",
+    "static/media/Vitol.pdf": "/static/media/Vitol.14e5ea0a54b9748a5908.pdf",
+    "static/media/profile_new.jpg": "/static/media/profile_new.8bf0263681fe7972826a.jpg",
+    "static/media/Resume-Avish-Shah.pdf": "/static/media/Resume-Avish-Shah.753b0f4e50ed87bf2007.pdf",
+    "index.html": "/index.html",
+    "main.68e493f7.css.map": "/static/css/main.68e493f7.css.map",
+    "main.0201347e.js.map": "/static/js/main.0201347e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68e493f7.css",
+    "static/js/main.0201347e.js"
+  ]
+}
