@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="container experience__container">
         <div className="experience_frontend">
           <h3>
-            Frontend End Intern @{" "}
+            Frontend Intern @{" "}
             <a href="https://iRekommend.com">iRekommend.com </a>
           </h3>
           <h5>January 2022 - march 2022</h5>
@@ -39,8 +39,8 @@ const Experience = () => {
         </div>
         <div className="experience_frontend">
           <h3>
-            Jr. FontEnd Engineer @{" "}
-            <a href="https://internship.thesparksfoundation.info/">
+            Jr. Fontend Engineer @{" "}
+            <a href="https://xcodewebsolutions.com/">
               XCode Web Solutions LLP{" "}
             </a>
           </h3>

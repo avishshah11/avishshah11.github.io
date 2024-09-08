@@ -11,11 +11,12 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
+    --color-bg: #FFF4EA;
+    --color-bg-variant: #FADFA1;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: #fff;
+    --color-text: #C96868;
+    --color-hover: #d38787;
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
@@ -37,7 +38,7 @@ html {
 body {
     font-family: 'Fredoka', sans-serif;
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-text);
     line-height: 1.7;
 }
 
@@ -63,7 +64,7 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-primary);
 }
 
 section > h2 {
@@ -76,12 +77,12 @@ section > h2 {
 }
 
 a {
-    color: var(--color-primary);
+    color: var(--color-text);
     transition: var(--transition);
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-text);
 }
 
 .btn {
@@ -91,20 +92,20 @@ a:hover {
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-text);
     transition: var(--transition);
     font-family: 'Fredoka', sans-serif;
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--color-hover);
     color: var(--color-bg);
     border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: var(--color-text);
+    color: var(--color-bg-variant);
     font-size: 1rem;
 }
 

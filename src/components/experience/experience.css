@@ -20,12 +20,12 @@
 
 .experience__container > div h3 {
     margin-bottom: 1rem;
-    color: var(--color-primary);
+    color: var(--color-text);
 }
 
 .experience__container > div h5 {
     margin-bottom: 1rem;
-    color: var(--color-primary);
+    color: var(--color-text);
 }
 
 /*=====================MEDIA QUERIES (MEDIUM DEVICES)=========================*/

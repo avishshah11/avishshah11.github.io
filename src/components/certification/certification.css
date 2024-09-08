@@ -20,7 +20,7 @@
 
 .certification__container > div h3 {
     margin-bottom: 1rem;
-    color: var(--color-primary);
+    color: var(--color-text);
 }
 
 .certification__container > div h5 {
@@ -30,7 +30,8 @@
 
 .button {
     font-family: 'Fredoka', sans-serif;
-    border-color: var(--color-primary-variant);
+    cursor: pointer;
+    border: var(--color-text);
     background: transparent;
     color: var(--color-primary);
 }
