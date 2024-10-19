@@ -1,13 +1,12 @@
 import React from 'react'
-import Resume from '../../assets/Resume-Avish-Shah.pdf'
+import Resume from '../../assets/Avish_Shah_Resume.pdf'
 
 const CTA = () => {
   const handleDownload = () => {
-    const blob = new Blob([Resume], {type: 'application/pdf'})
 
     const link = document.createElement('a')
 
-    link.href = URL.createObjectURL(blob)
+    link.href = Resume
 
     link.download = "Resume"
 
@@ -16,6 +15,8 @@ const CTA = () => {
     link.click()
 
     document.body.removeChild(link)
+
+    setTimeout(() => URL.revokeObjectURL(link.href), 7000);
 
   }
   return (
