@@ -31,10 +31,10 @@ const Storage = () => {
   useEffect(() => {
     const fetchAndInsert = async () => {
       try {
-        const ip = await fetchUserLocation();
-        if (ip) {
-          await InsertIntoDatabase(ip);
-        }
+          const ip = await fetchUserLocation();
+          if (ip) {
+            await InsertIntoDatabase(ip);
+          }
       } catch (error) {
         throw error;
       }
