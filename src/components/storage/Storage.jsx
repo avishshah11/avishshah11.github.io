@@ -4,7 +4,6 @@ import { db } from "../../firebase/Firebase";
 import SignIn from "../../firebase/Auth";
 
 const Storage = () => {
-
   const fetchUserLocation = async () => {
     const url = process.env.REACT_APP_IP_API;
     try {
@@ -33,12 +32,9 @@ const Storage = () => {
   useEffect(() => {
     const fetchAndInsert = async () => {
       try {
-        const auth = await SignIn();
-        if (auth) {
-          const ip = await fetchUserLocation();
-          if (ip) {
-            await InsertIntoDatabase(ip);
-          }
+        const ip = await fetchUserLocation();
+        if (ip) {
+          await InsertIntoDatabase(ip);
         }
       } catch (error) {
         throw error;
