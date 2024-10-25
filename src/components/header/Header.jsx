@@ -2,6 +2,7 @@ import React from 'react'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import "./header.css"
+import Storage from '../storage/Storage'
 
 const Header = () => {
   return (
@@ -16,6 +17,7 @@ const Header = () => {
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
+      <Storage/>
     </header>
   )
 }

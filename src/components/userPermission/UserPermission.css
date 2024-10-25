@@ -1,0 +1,46 @@
+.cookies {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  margin: 0px;
+  border-radius: 25px;
+}
+
+.cookies-card {
+  background: #c96868;
+  width: 60%;
+  margin: 6px auto;
+  border-radius: 10px;
+}
+
+.cookies-para {
+  padding: 10px;
+  color: #fff;
+}
+
+.cookies-button {
+  background: #fff;
+  color: #c96868;
+  margin: 10px;
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 800px) {
+  .cookies-card {
+    width: 100%;
+  }
+
+  .cookies-para {
+    font-size: 0.7rem;
+  }
+
+  .cookies-button {
+    font-size: 0.7rem;
+    width: 60px;
+    height: 30px;
+  }
+}
