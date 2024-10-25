@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.b7abad13.css",
-    "main.js": "/static/js/main.a3b59f82.js",
+    "main.js": "/static/js/main.2a732f1b.js",
     "static/media/Vitol.pdf": "/static/media/Vitol.14e5ea0a54b9748a5908.pdf",
     "static/media/profile_new.jpg": "/static/media/profile_new.8bf0263681fe7972826a.jpg",
     "static/media/Avish_Shah_Resume.pdf": "/static/media/Avish_Shah_Resume.92bfe10119f28cc78076.pdf",
     "index.html": "/index.html",
     "main.b7abad13.css.map": "/static/css/main.b7abad13.css.map",
-    "main.a3b59f82.js.map": "/static/js/main.a3b59f82.js.map"
+    "main.2a732f1b.js.map": "/static/js/main.2a732f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.b7abad13.css",
-    "static/js/main.a3b59f82.js"
+    "static/js/main.2a732f1b.js"
   ]
 }
