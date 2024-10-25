@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../firebase/Firebase";
-import SignIn from "../../firebase/Auth";
 
 const Storage = () => {
   const fetchUserLocation = async () => {
